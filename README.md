@@ -1,19 +1,32 @@
-你好，我是陈志明 👋
+# 你好 👋
 
-AI 应用工程师 · Agent 基础设施
+我是一名专注于 **AI 智能体工程** 的开发者。
 
-字节跳动 → AI Startup · AskExcel / Hawkoo / Chat2doc
+曾在字节跳动参与飞书多维表格和协同文档的底层研发，之后在 AI 创业团队担任技术负责人，核心负责构建服务 **200,000+ 用户** 的 AI 产品。
 
-我专注于面向真实业务场景构建 AI 应用和 Agent 基础设施，让 Agent 能够可靠地完成长时间、多步骤任务。
+我关注如何让智能体在长时间、多步骤任务中，持续管理上下文、协调工具与执行环境，并交付可验证的结果。
 
-我主要关注模型能力与生产级产品之间的工程链路，包括 **Tool 调度、Sub-agent & Muti-agent 协作、Context 管理、以及弹性 Sandbox 基础设施**。
+## 🛠️ 开源项目
 
-我曾在 **字节跳动**。2023 年起进入 AI Startup，持续负责 Production Agent 与 AI Application 研发，相关产品已服务超过 **100,000 名用户**。
+### [github.com/timczm/tinyagent](https://github.com/timczm/tinyagent)
 
-## 技术方向
+一个面向长时间、多步骤任务的开源智能体框架，源于 AskExcel 和 Hawkoo 的生产实践。
 
-- Agent Systems：Tool Calling、Sub-Agent、Muti-Agent、Memory、MCP、Skills、Long-Horizon Agent、Harness
-- Context & Artifacts：Context Engineering、Memory compacted、Agent Evaluation
-- Runtime & Infrastructure：Python、FastAPI、Golang、Kubernetes、Docker
-- Data & Backend：MySQL、Redis、Async Programming
-- Frontend：TypeScript、JavaScript、Vue、Nuxt
+将智能体调度、子智能体协作、上下文与产物管理、记忆、技能、工具接入及沙盒执行等能力，沉淀为可复用的基础组件。
+
+希望把真实产品中验证过的工程经验带到开源社区，让更多开发者能够构建自己的智能体应用。
+
+## 🚀 做过的项目
+
+* **AskExcel**：面向 Excel 与办公场景的智能体，服务 **100,000+ 用户**。支持文件处理、数据分析、代码执行与报告生成，生产环境中的复杂任务无需介入即可长时间运行。
+* **Hawkoo**：面向会议场景的智能体，将会议内容与业务上下文转化为可执行任务，连接客户管理、日历和邮件等应用。
+* **飞书多维表格与文档**：参与核心存储架构升级，主导行级文档存储设计，负责过数据一致性、实时协同和权限系统等工作。
+
+## 🔍 技术关注
+
+* **长任务执行**：任务规划、子智能体协作与状态管理。
+* **上下文与记忆**：信息持久化、按需加载、裁剪与压缩。
+* **智能体评测**：基于执行轨迹逐步评分，定位错误起点，发现质量退化。
+* **沙盒基础设施**：执行隔离、弹性调度，以及计算与存储分离。
+
+欢迎交流智能体工程、办公自动化和开源实践，也欢迎在 [tinyagent](https://github.com/timczm/tinyagent) 提出问题、分享想法或贡献代码。
